@@ -98,21 +98,65 @@ textarea {
     border: none;
 }
 
-.thumbnail {
-    width: 100px;
-    height: 100px;
+table, tr, td {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
 }
 
+#hangman {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
 
+#rpg {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+#trivia {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+#info {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+#rockpaperscissors {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    width: 82%;
+    height: 20px;
+    padding: 10px;
+    z-index: 2;
+}
 
 footer {
     clear: both;
     overflow: auto;
     width: 100%;
-    height: 100px;
+    height: 40px;
     background-color: #666666;
     position: fixed;
     bottom: 0px;
+    font-size: 10px;
     text-align: center;
     color: white;
     border-top: 10px solid #4aaaa5;

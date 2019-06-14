@@ -4,8 +4,6 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 
 ![Home Page](header.png)
 
-```
-
 ## Meta
 
 Aaron Long   

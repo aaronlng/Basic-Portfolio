@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Aaron Long : Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-    <body>
+<body>
 
-            <div class="navbar">
-                
-                    <ul>
-                        <li><h1>Aaron Long</h1></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="index.html">About</a></li>
-                    </ul>
-                </div>
-
-        <div class="indexmain">
-
-        <div class="header">
-                <h2>Contact</h2>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Aaron Long</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
 
-        <form>
-            Name<br>
-            <input type="text" name="fullname" value="John Smith"><br>
-            Email<br>
-            <input type="text" name="email" value="example@gmail.com"><br>
-            Message<br>
-            <textarea name="message" rows="10" cols="30"></textarea><br>
-            <input id="submit" type="submit" value="submit">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-        </form>
+                <form id="contact-form">
+                        <ul>
+                          <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                          </li>
+                          <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                          </li>
+                          <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                          </li>
+                        </ul>
+                        <input type="submit">
+                      </form>
 
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy; 
         </div>
+    </footer>
 
-        <footer>
-            <p>Copyright&copy;</p>
-        </footer>
-    </body>
+</body>
+
 </html>

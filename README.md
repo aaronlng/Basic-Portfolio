@@ -4,8 +4,16 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 
 ![Home Page](/assets/images/landingPage.png)
 
-## Meta
+## Languages/Technologies
 
-Aaron Long   
-  - Github: [aaronlng](https://github.com/aaronlng)
-  - Email: aaronlng05@gmail.com 
+- HTML
+
+- CSS
+
+## Author
+
+### Aaron Long
+
+- [GitHub Profile](https://github.com/aaronlng/)
+
+- [@aaronlng](https://twitter.com/aaronlng)

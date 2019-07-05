@@ -10,6 +10,10 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 
 - CSS
 
+## Deployed Version
+
+- [Basic Portfolio](https://www.aaronlng.dev/basic-portfolio/)
+
 ## Author
 
 ### Aaron Long
